@@ -1,0 +1,6 @@
+<tool scriptid="customtool_tableschema_acp">
+  <name>SuiteQL Tools</name>
+  <scriptfile>[/SuiteScripts/tableschema_acp.js]</scriptfile>
+  <rpcschema>[/SuiteScripts/tableschema_schema_acp.json]</rpcschema>
+  <exposeto3rdpartyagents>T</exposeto3rdpartyagents>
+</tool>

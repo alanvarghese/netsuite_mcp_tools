@@ -1,0 +1,19 @@
+{
+	"tools": [
+		{
+			"name": "getTableList",
+			"description": "Get a list of all tables in the NetSuite account with descriptions. Returns a list of tables followed by a : then description",
+			"inputSchema": {
+				"type": "object",
+				"properties": {},
+				"required": []
+			},
+			"annotations": {
+				"title": "Get Table List",
+				"readOnlyHint": true,
+				"idempotentHint": true,
+				"openWorldHint": false
+			}
+		}
+	]
+}

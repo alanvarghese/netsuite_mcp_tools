@@ -1,0 +1,26 @@
+{
+	"tools": [
+		{
+			"name": "getTableSchemas",
+			"description": "Get the schema for the specified tablename in the NetSuite account with descriptions.",
+			"inputSchema": {
+				"type": "object",
+				"properties": {
+					"tableNames": {
+						"type": "string",
+						"description": "Names of the tables to retrieve schemas for, separate by commas"
+					}
+				},
+				"required": [
+					"tableNames"
+				]
+			},
+			"annotations": {
+				"title": "Get Table Schemas",
+				"readOnlyHint": true,
+				"idempotentHint": true,
+				"openWorldHint": false
+			}
+		}
+	]
+}
